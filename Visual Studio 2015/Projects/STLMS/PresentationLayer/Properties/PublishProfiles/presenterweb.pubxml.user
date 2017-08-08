@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\presenterweb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>02/13/2017 14:16:34</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>02/13/2017 14:16:34</publishTime>
+    </File>
+    <File Include="bin/BLL.dll">
+      <publishTime>02/17/2017 10:27:08</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>02/17/2017 10:27:08</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>11/03/2015 17:43:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 16:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>12/07/2016 11:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>12/06/2016 15:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>12/07/2016 11:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 15:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Diagnostics.Tracing.EventSource.dll">
+      <publishTime>12/01/2015 14:31:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.dll">
+      <publishTime>04/07/2014 12:26:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.Desktop.dll">
+      <publishTime>04/07/2014 12:26:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.dll">
+      <publishTime>04/07/2014 12:26:14</publishTime>
+    </File>
+    <File Include="bin/PresentationLayer.dll">
+      <publishTime>02/24/2017 12:01:46</publishTime>
+    </File>
+    <File Include="bin/System.IO.dll">
+      <publishTime>02/18/2015 17:07:08</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.dll">
+      <publishTime>02/18/2015 17:07:08</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.dll">
+      <publishTime>02/18/2015 17:07:08</publishTime>
+    </File>
+    <File Include="ContinueMessage.aspx">
+      <publishTime>02/24/2017 11:57:04</publishTime>
+    </File>
+    <File Include="CourseInfo.aspx">
+      <publishTime>02/14/2017 10:29:50</publishTime>
+    </File>
+    <File Include="CoursesList.aspx">
+      <publishTime>02/16/2017 15:36:47</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css">
+      <publishTime>01/16/2017 16:32:06</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css.map">
+      <publishTime>01/16/2017 16:32:06</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css">
+      <publishTime>01/16/2017 16:32:06</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css.map">
+      <publishTime>01/16/2017 16:32:06</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>02/16/2017 15:32:35</publishTime>
+    </File>
+    <File Include="css/bootstrap.css.map">
+      <publishTime>01/16/2017 16:32:06</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>01/16/2017 16:32:06</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css.map">
+      <publishTime>01/16/2017 16:32:06</publishTime>
+    </File>
+    <File Include="css/general.css">
+      <publishTime>02/16/2017 15:36:26</publishTime>
+    </File>
+    <File Include="css/Login.css">
+      <publishTime>02/16/2017 15:32:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/06/2017 10:26:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/06/2017 10:26:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/06/2017 10:26:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/06/2017 10:26:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/06/2017 10:26:30</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>01/06/2017 10:25:58</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>01/06/2017 10:25:58</publishTime>
+    </File>
+    <File Include="js/jquery-3.1.1.js">
+      <publishTime>01/06/2017 10:25:58</publishTime>
+    </File>
+    <File Include="js/npm.js">
+      <publishTime>01/06/2017 10:25:58</publishTime>
+    </File>
+    <File Include="LessonForm.aspx">
+      <publishTime>02/14/2017 10:46:49</publishTime>
+    </File>
+    <File Include="LoginForm.aspx">
+      <publishTime>02/16/2017 15:44:17</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>02/16/2017 15:31:27</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/13/2017 14:16:34</publishTime>
+    </File>
+    <File Include="Posttest0101.aspx">
+      <publishTime>02/14/2017 11:07:11</publishTime>
+    </File>
+    <File Include="Posttest0102.aspx">
+      <publishTime>02/14/2017 11:51:51</publishTime>
+    </File>
+    <File Include="Posttest0103.aspx">
+      <publishTime>02/14/2017 11:43:21</publishTime>
+    </File>
+    <File Include="Posttest0104.aspx">
+      <publishTime>02/14/2017 14:17:56</publishTime>
+    </File>
+    <File Include="Posttest0105.aspx">
+      <publishTime>02/17/2017 10:53:40</publishTime>
+    </File>
+    <File Include="Pretest0101.aspx">
+      <publishTime>02/14/2017 10:50:42</publishTime>
+    </File>
+    <File Include="Pretest0102.aspx">
+      <publishTime>02/14/2017 11:52:11</publishTime>
+    </File>
+    <File Include="Pretest0103.aspx">
+      <publishTime>02/14/2017 13:53:40</publishTime>
+    </File>
+    <File Include="Pretest0104.aspx">
+      <publishTime>02/14/2017 12:21:56</publishTime>
+    </File>
+    <File Include="Pretest0105.aspx">
+      <publishTime>02/17/2017 10:50:21</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/16/2017 11:30:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

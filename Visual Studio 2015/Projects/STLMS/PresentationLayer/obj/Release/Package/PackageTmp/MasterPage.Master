@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="PresentationLayer.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/bootstrap-flex.css"/>
+    <link rel="stylesheet" href="css/general.css" />
+   
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
+    
+    <form id="form1" runat="server">
+    <div>
+          <div>
+<!----------------------------------------------------------navbar-------------------------------------------------------------->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="CoursesList.aspx">
+           ST LMS
+        </a>
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collaspe-1">
+
+<ul class="nav navbar-nav navbar-right">
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <span class="glyphicon glyphicon-user"></span> <asp:Label ID="lblUserName" runat="server" Text="Label"></asp:Label> <span class="caret"> </span> </a>
+        <ul class="dropdown-menu">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span><asp:Label ID="lblRole" runat="server" Text="Label"></asp:Label></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-phone-alt"></span><asp:Label ID="lblContactNo" runat="server" Text="Label"></asp:Label></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-envelope"></span><asp:Label ID="lblEmail" runat="server" Text="Label"></asp:Label></a></li>
+            <li role="separator" class="divider"></li>
+            <li><asp:Button ID="btnLogout" CssClass="btn btn-default col-center-block" runat="server" Text="Logout" OnClick="btnLogout_Click"/></li>
+
+        </ul>
+    </li>
+</ul>
+        </div>
+    </div>
+</nav>
+              
+<!-------------------------------------------------------navbar----------------------------------------------------------------->
+</div>
+         <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+             </div>
+        <footer class="modal-footer">
+                <div class="container">
+                    <p class=" text-center text-muted">Copyright ©XXXX-2017 STMicroelectronics Corporation, All Rights Reserved</p>
+                </div>
+            </footer>
+    </div>
+    </form>
+</body>
+</html>
